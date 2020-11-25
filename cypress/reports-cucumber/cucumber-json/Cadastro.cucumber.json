@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  Como usuario do sistema desejo realizar o cadastro de um novo usuario\n  Para que este possa ter acesso ao sistema",
+    "keyword": "Feature",
+    "name": "Cadastro de usuário",
+    "line": 1,
+    "id": "cadastro-de-usuário",
+    "tags": [],
+    "uri": "Cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;cadastro-de-um-nono-usuário",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Cadastro de um nono usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que o usuário está na página de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 31034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "ele informa os dados de um novo usuário",
+            "result": {
+              "status": "passed",
+              "duration": 9968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "salva as informações",
+            "result": {
+              "status": "passed",
+              "duration": 552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "o novo usuário deve ser cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 21477000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
