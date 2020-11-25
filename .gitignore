@@ -1,1 +1,12 @@
+#relatorios
+mochawesome-report
+cypress/reports-cucumber/cucumber-json/**
+cypress/reports-cucumber/index.html.json
+cypress/reports-cucumber/index.html
+
+#videos
+cypress/videos
+
+#outros
+.DS_Store
 node_modules
