@@ -8,6 +8,6 @@ cypress/reports-cucumber/index.html.json
 cypress/videos
 
 
-#outros
+#outros arquivos
 node_modules
 .DS_Store
