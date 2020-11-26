@@ -23,7 +23,7 @@
             "name": "que o sistema não possui usuários cadastrados",
             "result": {
               "status": "passed",
-              "duration": 27775000000
+              "duration": 26835000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "eu acesso a página de listagem de usuários",
             "result": {
               "status": "passed",
-              "duration": 3419000000
+              "duration": 3487000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "eu devo visualizar a lista de usuários vazia",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 34000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "que o sistema possui apenas um unico registro",
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 129000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "eu acesso a página de listagem de usuários",
             "result": {
               "status": "passed",
-              "duration": 2753000000
+              "duration": 2543000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "eu vejo a lista de usuarios com apenas um registro",
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 97000000
             }
           }
         ]

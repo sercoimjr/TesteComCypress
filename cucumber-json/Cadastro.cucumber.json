@@ -23,7 +23,7 @@
             "name": "que o usuário está na página de cadastro",
             "result": {
               "status": "passed",
-              "duration": 11967000000
+              "duration": 12314000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "ele informa os dados de um novo usuário",
             "result": {
               "status": "passed",
-              "duration": 4820000000
+              "duration": 4385000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "salva as informações",
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 9384000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "o novo usuário deve ser cadastrado",
             "result": {
               "status": "passed",
-              "duration": 9789000000
+              "duration": 121000000
             }
           }
         ]
