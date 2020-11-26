@@ -1,0 +1,154 @@
+[
+  {
+    "description": "  Como usuario do sistema desejo realizar o cadastro de um novo usuario\n  Para que este possa ter acesso ao sistema",
+    "keyword": "Feature",
+    "name": "Cadastro de usuário",
+    "line": 1,
+    "id": "cadastro-de-usuário",
+    "tags": [],
+    "uri": "Cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;cadastro-de-um-nono-usuário",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Cadastro de um nono usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que o usuário está na página de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 11967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "ele informa os dados de um novo usuário",
+            "result": {
+              "status": "passed",
+              "duration": 4820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "salva as informações",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "o novo usuário deve ser cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 9789000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Como usuário eu quero acessar a página de Listagem\n  Para verificar os dados inseridos.",
+    "keyword": "Feature",
+    "name": "Listagem",
+    "line": 1,
+    "id": "listagem",
+    "tags": [],
+    "uri": "Listagem.feature",
+    "elements": [
+      {
+        "id": "listagem;listagem-sem-registros",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Listagem sem registros",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que o sistema não possui usuários cadastrados",
+            "result": {
+              "status": "passed",
+              "duration": 27775000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "eu acesso a página de listagem de usuários",
+            "result": {
+              "status": "passed",
+              "duration": 3419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "eu devo visualizar a lista de usuários vazia",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "listagem;listagem-com-apenas-um-unico-registro",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Listagem com apenas um unico registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que o sistema possui apenas um unico registro",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "eu acesso a página de listagem de usuários",
+            "result": {
+              "status": "passed",
+              "duration": 2753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "eu vejo a lista de usuarios com apenas um registro",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
