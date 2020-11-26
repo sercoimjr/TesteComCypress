@@ -11,3 +11,4 @@ cypress/videos
 #outros arquivos
 node_modules
 .DS_Store
+debug.log
