@@ -8,9 +8,9 @@
     "cy:run": "npx cypress run",
     "cy:open:cucumber": "npx cypress open --config-file cypress-cucumber.json",
     "cy:run:cucumber": "npx cypress run --config-file cypress-cucumber.json --spec **/All.features",
-    "report:merge": "mochawesome-merge > full_report.json",
-    "report:mocha": "marge full_report.json",
-    "report:clean": "RD /S /Q mochawesome-Report | DEL /F /Q full_report.json",
+    "report:merge": "mochawesome-merge > index.json",
+    "report:mocha": "marge index.json",
+    "report:clean": "RD /S /Q mochawesome-report | DEL /F /Q index.json",
     "report:cucumber": "node cypress/reports-cucumber/reporter.js"
   },
   "keywords": [],
